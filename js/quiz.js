@@ -28,11 +28,18 @@ quiz.prototype.restart=function(){
   this.currentIndex=0;
   this.gameOver=false;
 }
+
 var quiz1=new quiz();
+var quiz2=new quiz();
+
 quiz1.add(questionAnswer1);
 quiz1.add(questionAnswer2);
 quiz1.add(questionAnswer3);
 quiz1.add(questionAnswer4);
+
+quiz2.add(questionAnswer5);
+quiz2.add(questionAnswer6);
+
 
 
 

@@ -3,7 +3,19 @@
   content: "";
   display: table;
   clear: both; }
-
+#question{
+    margin-bottom:1em;
+}
+#heading{
+    margin-bottom:12%;
+}
+#nameDiv{
+    margin-bottom:10%;
+}
+input#name{
+    border:1px solid lightgrey;
+    width:70%;
+}
 .srt, .form__label--hidden {
   border: 0;
   clip: rect(0 0 0 0);
